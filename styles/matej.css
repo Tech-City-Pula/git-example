@@ -1,0 +1,79 @@
+.animation-container {
+	width: 100%;
+	padding: 2rem;
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+
+.red-box {
+	background-color: red;
+}
+
+.blue-box {
+	background-color: blue;
+}
+
+.green-box {
+	background-color: green;
+}
+
+.spinning {
+	animation: spin 1s ease-in-out alternate infinite;
+}
+
+.fading {
+	animation: fade 3s ease-out alternate infinite;
+}
+
+.moving {
+	animation: move 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate infinite;
+}
+
+@keyframes spin {
+	from {
+		rotate: 0deg;
+	}
+
+	to {
+		rotate: 360deg;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes move {
+	0% {
+		translate: 0;
+	}
+
+	25% {
+		translate: -50px;
+	}
+
+	50% {
+		translate: 0;
+	}
+
+	75% {
+		translate: 50px;
+	}
+
+	100% {
+		translate: 0;
+	}
+}
