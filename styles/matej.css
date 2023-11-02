@@ -36,6 +36,16 @@
 	animation: move 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate infinite;
 }
 
+.dog-picture {
+	aspect-ratio: 4 / 5;
+	max-width: 300px;
+}
+
+.cat-picture {
+	aspect-ratio: 3 / 2;
+	max-width: 600px;
+}
+
 @keyframes spin {
 	from {
 		rotate: 0deg;
