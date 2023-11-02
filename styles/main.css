@@ -1,0 +1,21 @@
+.page-layout {
+	display: grid;
+	grid-template-areas:
+		'header header header header' 'sidebar main main main'
+		'sidebar main main main'
+		'sidebar main main main'
+		'sidebar main main main'
+		'sidebar main main main';
+}
+
+.header {
+	grid-area: header;
+}
+
+.sidebar {
+	grid-area: sidebar;
+}
+
+.main {
+	grid-area: main;
+}
