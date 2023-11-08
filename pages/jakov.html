@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My blog</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .gallery-item {
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body class="page-layout">
+    <header class="header">
+      <a href="/index.html">
+        <h1 class="header-title">svacija stranica</h1>
+      </a>
+    </header>
+    <aside class="sidebar">
+      <a class="sidebar-link" href="/pages/matej.html">matejeva stranica</a>
+    </aside>
+    <main class="main">
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105504583/750/422/image.jpg"
+            alt="Amsterdam"
+          />
+          <button class="image-button">Amsterdam</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105659619/1920/1080/image.jpg"
+            alt="Copenhagen"
+          />
+          <button class="image-button">Copenhagen</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105171709/750/422/image.jpg"
+            alt="Stockholm"
+          />
+          <button class="image-button">Stockholm</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105281686/750/422/image.jpg"
+            alt="Prague"
+          />
+          <button class="image-button">Prague</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105278565/1920/1080/image.jpg"
+            alt="Vienna"
+          />
+          <button class="image-button">Vienna</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105930528/1920/1080/image.jpg"
+            alt="Dubrovnik"
+          />
+          <button class="image-button">Dubrovnik</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105741309/1920/1080/image.jpg"
+            alt="Warsaw"
+          />
+          <button class="image-button">Warsaw</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105526526/1920/1080/image.jpg"
+            alt="Budapest"
+          />
+          <button class="image-button">Budapest</button>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://media.timeout.com/images/105237758/1920/1080/image.jpg"
+            alt="Athens"
+          />
+          <button class="image-button">Athens</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
